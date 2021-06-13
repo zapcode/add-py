@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
 	name = 'add',         # How you named your package folder (MyLib)
-	packages = ['add'],   # Chose the same as "name"
-	version = '0.4',      # Start with a small number and increase it with every change you make
+	packages = ['add-py'],   # Chose the same as "name"
+	version = '0.3',      # Start with a small number and increase it with every change you make
 	license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
 	description = 'This is just an attempt to upload code to pypi',   # Give a short description about your library
 	author = 'Zafar Shadman',                   # Type in your name
 	author_email = 'shadmanzafar15@gmail.com',      # Type in your E-Mail
 	url = 'https://github.com/zapcode',   # Provide either the link to your github or to your website
-	download_url = 'https://github.com/zapcode/add-py/archive/refs/tags/v1.0.4.tar.gz',   
+	download_url = 'https://github.com/zapcode/add-py/archive/refs/tags/v1.0.3.tar.gz',   
 	keywords = ['CALCULATE', 'ADD', 'SUM'],   # Keywords that define your package best
 	install_requires=[            # I get to this in a second
 		'numpy',
